@@ -1,0 +1,22 @@
+# Teaching & Work Diary — Apache Security & Hardening Configuration
+# Lalit Chandra Bharali College, Department of Information Technology
+
+# Disable Directory Browsing
+Options -Indexes
+
+# Protect Sensitive System and Source Files
+<FilesMatch "^(\.git|\.env|composer\.(json|lock)|schema\.sql|seed\.sql|error\.log|README\.md)">
+    <IfModule authz_core_module>
+        Require all denied
+    </IfModule>
+    <IfModule !authz_core_module>
+        Deny from all
+    </IfModule>
+</FilesMatch>
+
+# Protect Config and Scratch Folders from Direct HTTP Access
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^config/ - [F,L]
+    RewriteRule ^scratch/ - [F,L]
+</IfModule>

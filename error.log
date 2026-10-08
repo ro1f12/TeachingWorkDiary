@@ -1,0 +1,74 @@
+[08-Oct-2026 02:17:56 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`teaching_work_diary`.`diary`, CONSTRAINT `diary_ibfk_1` FOREIGN KEY (`teacher_id`) REFERENCES `teachers` (`id`)) in C:\xampp\htdocs\TeachingWorkDiary\lib\materializer.php:229
+Stack trace:
+#0 C:\xampp\htdocs\TeachingWorkDiary\lib\materializer.php(229): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\TeachingWorkDiary\index.php(23): materialize_range('2026-10-08', '2026-10-08')
+#2 {main}
+  thrown in C:\xampp\htdocs\TeachingWorkDiary\lib\materializer.php on line 229
+[08-Oct-2026 02:18:16 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`teaching_work_diary`.`diary`, CONSTRAINT `diary_ibfk_1` FOREIGN KEY (`teacher_id`) REFERENCES `teachers` (`id`)) in C:\xampp\htdocs\TeachingWorkDiary\lib\materializer.php:229
+Stack trace:
+#0 C:\xampp\htdocs\TeachingWorkDiary\lib\materializer.php(229): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\TeachingWorkDiary\reports.php(76): materialize_range('2026-10-01', '2026-10-08')
+#2 {main}
+  thrown in C:\xampp\htdocs\TeachingWorkDiary\lib\materializer.php on line 229
+[08-Oct-2026 02:19:53 Asia/Kolkata] PHP Warning:  session_regenerate_id(): Session ID cannot be regenerated after headers have already been sent in C:\xampp\htdocs\TeachingWorkDiary\lib\auth.php on line 52
+[08-Oct-2026 02:19:53 Asia/Kolkata] PHP Warning:  session_regenerate_id(): Session ID cannot be regenerated after headers have already been sent in C:\xampp\htdocs\TeachingWorkDiary\lib\auth.php on line 52
+[08-Oct-2026 02:19:53 Asia/Kolkata] PHP Warning:  session_regenerate_id(): Session ID cannot be regenerated after headers have already been sent in C:\xampp\htdocs\TeachingWorkDiary\lib\auth.php on line 52
+[08-Oct-2026 02:19:53 Asia/Kolkata] PHP Warning:  session_regenerate_id(): Session ID cannot be regenerated after headers have already been sent in C:\xampp\htdocs\TeachingWorkDiary\lib\auth.php on line 52
+[08-Oct-2026 02:19:54 Asia/Kolkata] PHP Warning:  session_regenerate_id(): Session ID cannot be regenerated after headers have already been sent in C:\xampp\htdocs\TeachingWorkDiary\lib\auth.php on line 52
+[08-Oct-2026 02:19:54 Asia/Kolkata] PHP Warning:  session_regenerate_id(): Session ID cannot be regenerated after headers have already been sent in C:\xampp\htdocs\TeachingWorkDiary\lib\auth.php on line 52
+[08-Oct-2026 02:19:54 Asia/Kolkata] PHP Warning:  session_regenerate_id(): Session ID cannot be regenerated after headers have already been sent in C:\xampp\htdocs\TeachingWorkDiary\lib\auth.php on line 52
+[08-Oct-2026 02:19:54 Asia/Kolkata] PHP Warning:  session_regenerate_id(): Session ID cannot be regenerated after headers have already been sent in C:\xampp\htdocs\TeachingWorkDiary\lib\auth.php on line 52
+[08-Oct-2026 02:19:54 Asia/Kolkata] PHP Warning:  session_regenerate_id(): Session ID cannot be regenerated after headers have already been sent in C:\xampp\htdocs\TeachingWorkDiary\lib\auth.php on line 52
+[08-Oct-2026 02:19:54 Asia/Kolkata] PHP Warning:  session_regenerate_id(): Session ID cannot be regenerated after headers have already been sent in C:\xampp\htdocs\TeachingWorkDiary\lib\auth.php on line 52
+[08-Oct-2026 02:19:54 Asia/Kolkata] PHP Warning:  session_regenerate_id(): Session ID cannot be regenerated after headers have already been sent in C:\xampp\htdocs\TeachingWorkDiary\lib\auth.php on line 52
+[08-Oct-2026 02:19:54 Asia/Kolkata] PHP Warning:  session_regenerate_id(): Session ID cannot be regenerated after headers have already been sent in C:\xampp\htdocs\TeachingWorkDiary\lib\auth.php on line 52
+[08-Oct-2026 02:19:54 Asia/Kolkata] PHP Warning:  session_regenerate_id(): Session ID cannot be regenerated after headers have already been sent in C:\xampp\htdocs\TeachingWorkDiary\lib\auth.php on line 52
+[08-Oct-2026 02:19:54 Asia/Kolkata] PHP Warning:  session_regenerate_id(): Session ID cannot be regenerated after headers have already been sent in C:\xampp\htdocs\TeachingWorkDiary\lib\auth.php on line 52
+[08-Oct-2026 02:19:54 Asia/Kolkata] PHP Warning:  session_regenerate_id(): Session ID cannot be regenerated after headers have already been sent in C:\xampp\htdocs\TeachingWorkDiary\lib\auth.php on line 52
+[08-Oct-2026 02:19:54 Asia/Kolkata] PHP Warning:  session_regenerate_id(): Session ID cannot be regenerated after headers have already been sent in C:\xampp\htdocs\TeachingWorkDiary\lib\auth.php on line 52
+[08-Oct-2026 02:20:52 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`teaching_work_diary`.`diary`, CONSTRAINT `diary_ibfk_1` FOREIGN KEY (`teacher_id`) REFERENCES `teachers` (`id`)) in C:\xampp\htdocs\TeachingWorkDiary\lib\materializer.php:229
+Stack trace:
+#0 C:\xampp\htdocs\TeachingWorkDiary\lib\materializer.php(229): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\TeachingWorkDiary\index.php(23): materialize_range('2026-10-08', '2026-10-08')
+#2 {main}
+  thrown in C:\xampp\htdocs\TeachingWorkDiary\lib\materializer.php on line 229
+[08-Oct-2026 02:20:54 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`teaching_work_diary`.`diary`, CONSTRAINT `diary_ibfk_1` FOREIGN KEY (`teacher_id`) REFERENCES `teachers` (`id`)) in C:\xampp\htdocs\TeachingWorkDiary\lib\materializer.php:229
+Stack trace:
+#0 C:\xampp\htdocs\TeachingWorkDiary\lib\materializer.php(229): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\TeachingWorkDiary\index.php(23): materialize_range('2026-10-08', '2026-10-08')
+#2 {main}
+  thrown in C:\xampp\htdocs\TeachingWorkDiary\lib\materializer.php on line 229
+[08-Oct-2026 02:21:48 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`teaching_work_diary`.`diary`, CONSTRAINT `diary_ibfk_1` FOREIGN KEY (`teacher_id`) REFERENCES `teachers` (`id`)) in C:\xampp\htdocs\TeachingWorkDiary\lib\materializer.php:229
+Stack trace:
+#0 C:\xampp\htdocs\TeachingWorkDiary\lib\materializer.php(229): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\TeachingWorkDiary\index.php(23): materialize_range('2026-10-08', '2026-10-08')
+#2 {main}
+  thrown in C:\xampp\htdocs\TeachingWorkDiary\lib\materializer.php on line 229
+[08-Oct-2026 02:22:05 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`teaching_work_diary`.`diary`, CONSTRAINT `diary_ibfk_1` FOREIGN KEY (`teacher_id`) REFERENCES `teachers` (`id`)) in C:\xampp\htdocs\TeachingWorkDiary\lib\materializer.php:229
+Stack trace:
+#0 C:\xampp\htdocs\TeachingWorkDiary\lib\materializer.php(229): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\TeachingWorkDiary\reports.php(76): materialize_range('2026-10-01', '2026-10-08')
+#2 {main}
+  thrown in C:\xampp\htdocs\TeachingWorkDiary\lib\materializer.php on line 229
+[08-Oct-2026 02:23:45 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`teaching_work_diary`.`diary`, CONSTRAINT `diary_ibfk_1` FOREIGN KEY (`teacher_id`) REFERENCES `teachers` (`id`)) in C:\xampp\htdocs\TeachingWorkDiary\lib\materializer.php:229
+Stack trace:
+#0 C:\xampp\htdocs\TeachingWorkDiary\lib\materializer.php(229): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\TeachingWorkDiary\index.php(23): materialize_range('2026-10-08', '2026-10-08')
+#2 {main}
+  thrown in C:\xampp\htdocs\TeachingWorkDiary\lib\materializer.php on line 229
+[08-Oct-2026 02:26:25 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`teaching_work_diary`.`diary`, CONSTRAINT `diary_ibfk_1` FOREIGN KEY (`teacher_id`) REFERENCES `teachers` (`id`)) in C:\xampp\htdocs\TeachingWorkDiary\lib\materializer.php:229
+Stack trace:
+#0 C:\xampp\htdocs\TeachingWorkDiary\lib\materializer.php(229): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\TeachingWorkDiary\reports.php(76): materialize_range('2026-10-01', '2026-10-08')
+#2 {main}
+  thrown in C:\xampp\htdocs\TeachingWorkDiary\lib\materializer.php on line 229
+[08-Oct-2026 02:29:04 Asia/Kolkata] PHP Warning:  Undefined variable $list in C:\xampp\htdocs\TeachingWorkDiary\masters.php on line 483
+[08-Oct-2026 02:29:04 Asia/Kolkata] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\TeachingWorkDiary\masters.php on line 483
+[08-Oct-2026 02:32:04 Asia/Kolkata] PHP Warning:  Undefined variable $list in C:\xampp\htdocs\TeachingWorkDiary\masters.php on line 483
+[08-Oct-2026 02:32:04 Asia/Kolkata] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\TeachingWorkDiary\masters.php on line 483
+[08-Oct-2026 02:44:06 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`teaching_work_diary`.`diary`, CONSTRAINT `diary_ibfk_1` FOREIGN KEY (`teacher_id`) REFERENCES `teachers` (`id`)) in C:\xampp\htdocs\TeachingWorkDiary\lib\materializer.php:229
+Stack trace:
+#0 C:\xampp\htdocs\TeachingWorkDiary\lib\materializer.php(229): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\TeachingWorkDiary\index.php(23): materialize_range('2026-10-08', '2026-10-08')
+#2 {main}
+  thrown in C:\xampp\htdocs\TeachingWorkDiary\lib\materializer.php on line 229
